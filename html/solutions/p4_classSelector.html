@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		syntax $('.class')</br>
+		example: </br>
+		$('.small')  all elements with class small	</br>
+		$('.small,.big') all elements with class big</br>
+		$('div .small,.big') all div elements with class small and any element with class big</br>
+		$('.small').css('border', '5px solid red') search all element with class small and set border as 5px solid red</br>
+</br>
+		$('.small .big') all elements with class big which is descendent of class small </br>
+		OR</br>
+		$('.small').filter('.big').css('border', '5px solid red')  this is slower as it first searches all small and then </br>remove those who do not have big</br>
+
+
+	</body>
+</html>
